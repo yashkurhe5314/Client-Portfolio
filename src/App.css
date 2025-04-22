@@ -1,0 +1,374 @@
+body, html, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+  #main-navbar {
+    background-color: #000000 !important; /* pure black */
+  }
+
+.custom-nav .nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+#main-navbar .nav-link:hover {
+  color: #00ffcc !important;            /* optional: hover effect */
+}
+
+
+/* Home */
+.typing {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.blinking-cursor {
+  font-weight: bold;
+  color: #007bff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+#home {
+  background-color: black;
+color: whitesmoke;
+}
+#home .col-md-6 h1{
+  margin-top:  -30px;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 150px;
+  color: whitesmoke;
+}
+#home .col-md-6 .yello{
+  color: yellow;
+}
+#home .col-md-6 h3{
+  font-size: 30px;
+  margin-left: 150px;
+}
+.typing, .blinking-cursor {
+  color: white;
+}
+#home .col-md-6 p{
+  font-size: 20px;
+  margin-left: 150px;
+}
+#home .col-md-6 img{
+  margin-top: 170px;
+  height: 400px;
+  width: 400px;
+}
+
+/* About */
+.container h2 {
+  margin-top: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffcc;
+}
+
+.container {
+  width: 100%;
+}
+.container .lead{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.container .bold{
+  font-size: 20px;
+  font-weight: bold;
+  color: #00ffcc;
+  margin-right: 100px;
+}
+
+.profile-wrapper {
+  background-color: #000;
+  color: #dcdcdc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.profile-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  flex: 0 0 150px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.value {
+  flex: 1;
+  line-height: 1.6;
+}
+.container .buttons{
+  margin-left: 35px;
+}
+.container .buttons p{
+  font-size: 20px;
+  font-weight: bold;
+  color: #00ffcc;
+  margin-top: 10px;
+}
+.container .buttons .number{
+  color: yellowgreen;
+}
+#linkedin-button {
+  background-color: #d9e30b;
+  color: black;
+  font-size: 18px;
+  /*LinkedInblue*/border-color: #0072b1;
+  border-radius:50px ;
+  width: 100px;
+  margin-left: -500px;
+  -webkit-border-radius:50px ;
+  -moz-border-radius:50px ;
+  -ms-border-radius:50px ;
+  -o-border-radius:50px ;
+}
+
+/* Projects */
+
+#projects {
+  background-color: #000 !important; /* Override if needed */
+  color: #fff !important; /* Override if needed */
+}
+
+#projects .display-4 {
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#projects .lead{
+  margin-top: 50px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+#gallery {
+  background-color: #000;     /* Example: black background */
+  padding: 60px 0;
+  color: white;               /* For text inside */
+}
+
+#gallery img {
+  border: 2px solid #fff;
+  transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
+#gallery h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+#gallery p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.showcase-section {
+  background-color: #000;
+}
+
+.stat-box {
+  background-color: #1a1a1a;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 200px;
+  /* position: relative; */
+}
+
+.background-overlay {
+  background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470'); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  height: 500px;
+  /* position: absolute; */
+}
+
+.background-overlay h1,
+.background-overlay p  {
+  color: black;
+}
+.background-overlay #ptag{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* consulting */
+
+/* Section background */
+#consulting {
+  /* margin-top: 60px; */
+  background-color: #000 !important; /* black */
+  color: white;
+  padding: 60px 0;
+}
+
+#consulting h1{
+
+  margin-top: 30px;
+  font-weight: bold;
+}
+#consulting .lead{
+  margin-top: 50px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* Card wrapper */
+#cards-section .card {
+  background-color: #fff;      /* white card */
+  color: #000;                 /* dark text inside */
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+
+/* Hover effect */
+#cards-section .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Image inside card */
+#cards-section .card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Title and description spacing */
+#cards-section .card-title {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+#cards-section .card-text {
+  font-size: 0.95rem;
+}
+
+/* Button styling */
+#cards-section .btn {
+  margin-top: auto;
+}
+
+/* contact */
+#contact {
+  background-color: #000 !important; /* black */
+  color: white;
+  padding: 60px 0;
+}
+
+#contact h1{
+  margin-top: 30px;
+  font-weight: bold;
+}
+#contact .lead{
+  margin-top: 50px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+#team-section {
+  background-color: #000 !important; /* black */
+}
+
+.team-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+}
+
+/* Booksession */
+#book {
+  background-color: #000 !important; /* black */
+  color: white;
+  padding: 60px 0;
+}
+#book h1{
+  margin-top: 30px;
+  font-weight: bold;
+}
+#book .lead{
+  margin-left: 430px;
+  margin-top: 50px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+#contact-form {
+  background-color: #000; /* Black background */
+  padding: 40px;
+  border-radius: 12px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+#contact-form .form-label {
+  color: #fff;
+}
+
+
+
+
+.section {
+   /* padding: 100px 20px; */
+  /* margin-top: 60px;  */
+  scroll-margin-top: 80px; /* Adjust based on navbar height */
+  height: 100vh;
+  background-color: black;
+  /* border-bottom: 1px solid #ccc; */
+}
