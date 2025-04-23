@@ -45,7 +45,7 @@ const HeroSection = () => {
       <span className="blinking-cursor">|</span>
     </h3>
           <p>
-            SR.SOFTWARE Developer <br /> 
+            SR.SOFTWARE DEVELOPER <br /> 
             SR.TECHNICAL TRAINER <br />
             TECH INFLUENCER <br />
             STUDENT MENTOR <br />
