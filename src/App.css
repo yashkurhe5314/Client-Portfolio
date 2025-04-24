@@ -73,9 +73,15 @@ color: whitesmoke;
   margin-left: 150px;
 }
 #home .col-md-6 img{
-  margin-top: 170px;
-  height: 400px;
-  width: 400px;
+ margin-top: 170px;
+ height: 400px;
+ width: 400px;
+ box-shadow:10px 7px 20px orange;
+
+}
+
+#home .col-md-6 img:hover {
+  transform: scale(1.05);
 }
 
 /* About */
