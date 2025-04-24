@@ -73,4 +73,4 @@ This is a personal portfolio website built using **React.js** and **Bootstrap 5*
       └── README.md               # Project documentation
 
         
-Link(https://client-portfolio-obef4hz40-yashkurhe5314s-projects.vercel.app/)
+Link(https://client-portfolio-2m87tg3wn-yashkurhe5314s-projects.vercel.app/)
